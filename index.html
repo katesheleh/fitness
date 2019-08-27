@@ -14,6 +14,30 @@
   </script>
 	<noscript>
 		<link href="css/icons.fallback.css" rel="stylesheet"></noscript>
+
+
+// SCHEMA TEST script
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Spain",
+    "addressRegion": "Tarragonès",
+    "streetAddress": "c/ Eivissa, 4, Bajos 2º, Tarragona"
+  },
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quia animi, itaque eveniet voluptate, consequuntur?",
+  "name": "FITNESS IN A CAN",
+  "telephone": "850-648-4200",
+	"geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 1.25,
+    "longitude": 41.11667
+  }
+}
+</script>
+// end SCHEMA TEST script
 </head>
 
 <body>
@@ -228,9 +252,11 @@
 			<div class="container">
 				<div class="page-footer__row">
 					<div class="page-footer__block page-footer__block--1">
-						<p class="page-footer__header">Resources</p>
+						<p class="page-footer__header">Address</p>
 						<p class="page-footer__text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis reiciendis praesentium illo, iusto eveniet asperiores error laudantium laboriosam explicabo dicta!
+							C/ Eivissa, 4 <br>
+							Tarragona, 43005<br>
+							Spain
 						</p>
 					</div>
 					<div class="page-footer__block page-footer__block--2">
@@ -265,12 +291,6 @@
 				</form>
 			</div>
 		</footer>
-		<div class="popup">
-		<div class="popup__window">
-		<div class="popup__content">Text for modal window</div>
-		<a href="#" class="popup__close" title="close">close</a>
-		</div>	
-		</div>
 	</div>
 	<script src="js/build/scripts.js"></script>
 </body>
