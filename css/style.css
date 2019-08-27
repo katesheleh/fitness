@@ -598,7 +598,7 @@ html {
 }
 .page-header {
   background: url(../img/header-pic.jpg) no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 .page-header__line {
   position: relative;
