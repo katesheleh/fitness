@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,45 +11,46 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/lib/grunticon.loader.js"></script>
 	<script>
-      grunticon(["css/icons.data.svg.css", "css/icons.data.png.css", "css/icons.fallback.css"], grunticon.svgLoadedCallback );
-  </script>
+		grunticon(["css/icons.data.svg.css", "css/icons.data.png.css", "css/icons.fallback.css"], grunticon.svgLoadedCallback);
+	</script>
 	<noscript>
 		<link href="css/icons.fallback.css" rel="stylesheet"></noscript>
 
 
-<!-- // SCHEMA TEST script -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "brand": "Acme",
-  "logo": "http://www.example.com/logo.png",
-  "name": "Lorem ipsum dolor sit amet",
-  "category": "Widgets",
-  "image": "http://www.example.com/anvil_executive.jpg",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.4",
-    "reviewCount": "89"
-  },
-	"offers": {
-	"@type": "Offer",
-	"price": "13.00",
-	"priceCurrency": "USD",
-	"url": "http://www.ticketfly.com/purchase/309433"
-},
-"review": {
-	 "@type": "Review",
-	 "reviewRating": {
-		 "@type": "Rating",
-		 "ratingValue": "4"
-	 },
-	 "sku": "TEST1234"
-}
-</script>
+	<!-- // SCHEMA TEST script -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org/",
+			"@type": "Product",
+			"brand": "Acme",
+			"sku": "TEST1234",
+			"logo": "http://www.example.com/logo.png",
+			"name": "Lorem ipsum dolor sit amet",
+			"category": "Widgets",
+			"image": "http://www.example.com/anvil_executive.jpg",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "4.4",
+				"reviewCount": "89"
+			},
+			"offers": {
+				"@type": "Offer",
+				"price": "13.00",
+				"priceCurrency": "USD",
+				"url": "http://www.ticketfly.com/purchase/309433"
+			},
+			"review": {
+				"@type": "Review",
+				"reviewRating": {
+					"@type": "Rating",
+					"ratingValue": "4"
+				}
+			}
+		}
+	</script>
 
-<!-- // end SCHEMA TEST script -->
+	<!-- // end SCHEMA TEST script -->
 </head>
 
 <body>
@@ -148,7 +150,7 @@
 									<span class="article__number">(34)</span>
 								</div>
 								<div class="article__img-wrap">
-									<img  class="article__img" src="img/gallery1.jpg" alt="sport woman" width="836" height="558"></div>
+									<img class="article__img" src="img/gallery1.jpg" alt="sport woman" width="836" height="558"></div>
 							</div>
 						</article>
 						<article class="article article--row__reverse article__text-bg">
@@ -169,7 +171,7 @@
 									<span class="article__number">(658)</span>
 								</div>
 								<div class="article__img-wrap">
-									<img  class="article__img" src="img/gallery2.jpg" alt="sport woman" width="780" height="394"></div>
+									<img class="article__img" src="img/gallery2.jpg" alt="sport woman" width="780" height="394"></div>
 							</div>
 						</article>
 					</div>
@@ -305,4 +307,5 @@
 	</div>
 	<script src="js/build/scripts.js"></script>
 </body>
+
 </html>
