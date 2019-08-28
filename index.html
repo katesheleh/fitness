@@ -19,57 +19,22 @@
 <!-- // SCHEMA TEST script -->
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Books",
-        "item": "https://companyname.com/books"
-    }, {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Authors",
-        "item": "https://companyname.com/books/authors"
-    }, {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Ann Leckie",
-        "item": "https://companyname.com/books/authors/annleckie"
-    }, {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Ancillary Justice",
-        "item": "https://companyname.com/books/authors/ancillaryjustice"
-    }]
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "brand": "Acme",
+  "logo": "http://www.example.com/logo.png",
+  "name": "Lorem ipsum dolor sit amet",
+  "category": "Widgets",
+  "image": "http://www.example.com/anvil_executive.jpg",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.4",
+    "reviewCount": "89"
+  }
 }
 </script>
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "LocalBusiness",
-	"image": [
-        "https://katesheleh.github.io/fitness/img/header-pic-mobile.jpg"
-    ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Spain",
-    "addressRegion": "Tarragonès",
-    "streetAddress": "c/ Eivissa, 4, Bajos 2º, Tarragona"
-  },
-  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quia animi, itaque eveniet voluptate, consequuntur?",
-  "name": "FITNESS IN A CAN",
-  "telephone": "850-648-4200",
-	"geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 1.25,
-    "longitude": 41.11667
-  },
-	"priceRange": "$$$",
-  "openingHours":["Mo-Fr 10:00-19:00", "Sa 10:00-22:00", "Su 10:00-21:00"],
-  "url":"https://katesheleh.github.io/fitness/"
-}
-</script>
+
 <!-- // end SCHEMA TEST script -->
 </head>
 
