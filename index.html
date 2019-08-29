@@ -19,36 +19,71 @@
 
 	<!-- // SCHEMA TEST script -->
 	<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@type": "WebPage",
-			"name": "Website Name",
-			"description": "In addition to Patrick's work in the SEO field, he also enjoys classical jazz dancing and organic farming ",
-			"breadcrumb": {
-				"@type": "BreadcrumbList",
-				"itemListElement": [{
-					"@type": "ListItem",
-					"position": 1,
-					"name": "Books",
-					"item": "https://companyname.com/books"
-				}, {
-					"@type": "ListItem",
-					"position": 2,
-					"name": "Authors",
-					"item": "https://companyname.com/books/authors"
-				}, {
-					"@type": "ListItem",
-					"position": 3,
-					"name": "Ann Leckie",
-					"item": "https://companyname.com/books/authors/annleckie"
-				}, {
-					"@type": "ListItem",
-					"position": 4,
-					"name": "Ancillary Justice",
-					"item": "https://companyname.com/books/authors/ancillaryjustice"
-				}]
-			}
-		}
+	  {
+	    "@context": "https://schema.org/",
+	    "@type": "Product",
+	    "brand": "Acme",
+	    "sku": "TEST1234",
+	    "logo": "http://www.example.com/logo.png",
+	    "name": "Lorem ipsum dolor sit amet",
+	    "category": "Widgets",
+	    "image": "http://www.example.com/anvil_executive.jpg",
+	    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	    "breadcrumb": {
+	      "@type": "BreadcrumbList",
+	      "itemListElement": [{
+	        "@type": "ListItem",
+	        "position": 1,
+	        "name": "Books",
+	        "item": "https://companyname.com/books"
+	      }, {
+	        "@type": "ListItem",
+	        "position": 2,
+	        "name": "Authors",
+	        "item": "https://companyname.com/books/authors"
+	      }, {
+	        "@type": "ListItem",
+	        "position": 3,
+	        "name": "Ann Leckie",
+	        "item": "https://companyname.com/books/authors/annleckie"
+	      }, {
+	        "@type": "ListItem",
+	        "position": 4,
+	        "name": "Ancillary Justice",
+	        "item": "https://companyname.com/books/authors/ancillaryjustice"
+	      }]
+	    },
+	    "aggregateRating": {
+	      "@type": "AggregateRating",
+	      "ratingValue": "4.4",
+	      "reviewCount": "89"
+	    },
+	    "offers": {
+	      "@type": "Offer",
+	      "availability": "http://schema.org/InStock",
+	      "price": "13.00",
+	      "priceCurrency": "EUR",
+	      "priceValidUntil": "2025-01-01T23:00",
+	      "url": "http://www.ticketfly.com/purchase/309433"
+	    },
+	    "review": [{
+	        "@type": "Review",
+	        "author": "John Doe",
+	        "datePublished": "2006-05-04",
+	        "name": "A masterpiece of literature",
+	        "ratingValue": "4.5",
+	        "reviewBody": "I really enjoyed this book. It captures the essential challenge people face as they try make sense of their lives and grow to adulthood."
+	      },
+	      {
+	        "@type": "Review",
+	        "author": "John Doe",
+	        "datePublished": "2006-05-04",
+	        "name": "A masterpiece of literature",
+	        "ratingValue": "4.5",
+	        "reviewBody": "I really enjoyed this book. It captures the essential challenge people face as they try make sense of their lives and grow to adulthood."
+	      }
+	    ]
+	  }
 	</script>
 
 	<!-- // end SCHEMA TEST script -->
