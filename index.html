@@ -19,47 +19,42 @@
 
 	<!-- // SCHEMA TEST script -->
 	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org/",
-			"@type": "Product",
-			"brand": "Acme",
-			"sku": "TEST1234",
-			"logo": "http://www.example.com/logo.png",
-			"name": "Lorem ipsum dolor sit amet",
-			"category": "Widgets",
-			"image": "http://www.example.com/anvil_executive.jpg",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"aggregateRating": {
-				"@type": "AggregateRating",
-				"ratingValue": "4.4",
-				"reviewCount": "89"
-			},
-			"offers": {
-				"@type": "Offer",
-				"availability": "http://schema.org/InStock",
-				"price": "13.00",
-				"priceCurrency": "EUR",
-				"priceValidUntil": "!!FIELD MUST BE IN DATE FORMAT!!",
-				"url": "http://www.ticketfly.com/purchase/309433"
-			},
-			"review": [{
-					"@type": "Review",
-					"author": "John Doe",
-					"datePublished": "2006-05-04",
-					"name": "A masterpiece of literature",
-					"ratingValue": "4.5",
-					"reviewBody": "I really enjoyed this book. It captures the essential challenge people face as they try make sense of their lives and grow to adulthood."
-				},
-				{
-					"@type": "Review",
-					"author": "John Doe",
-					"datePublished": "2006-05-04",
-					"name": "A masterpiece of literature",
-					"ratingValue": "4.5",
-					"reviewBody": "I really enjoyed this book. It captures the essential challenge people face as they try make sense of their lives and grow to adulthood."
-				}
-			]
-		}
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Event",
+	  "name": "Journey in Jazz",
+	  "startDate": "2025-01-01T19:30",
+	  "endDate": "2025-01-01T23:00",
+	  "location": {
+	    "@type": "Place",
+	    "name": "Central Park Library",
+	    "address": {
+	      "@type": "PostalAddress",
+	      "streetAddress": "2635 Homestead Rd",
+	      "addressLocality": "Santa Clara",
+	      "postalCode": "95051",
+	      "addressRegion": "CA",
+	      "addressCountry": "US"
+	    }
+	  },
+	  "image": [
+	    "https://example.com/photos/1x1/photo.jpg",
+	    "https://example.com/photos/4x3/photo.jpg"
+	   ],
+	  "description": "Distinctio sequi numquam culpa pariatur amet possimus soluta beatae. Eligendi!",
+	  "offers": {
+	    "@type": "Offer",
+	    "url": "https://www.example.com/event_offer/12345_201803180430",
+	    "price": "30",
+	    "priceCurrency": "USD",
+	    "availability": "https://schema.org/InStock",
+	    "validFrom": "2024-10-20T16:00"
+	  },
+	  "performer": {
+	    "@type": "PerformingGroup",
+	    "name": "Andy Lagunoff"
+	  }
+	}
 	</script>
 
 	<!-- // end SCHEMA TEST script -->
